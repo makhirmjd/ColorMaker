@@ -30,19 +30,22 @@
                     x:Name="SliderRed"
                     MaximumTrackColor="{StaticResource Tertiary}"
                     MinimumTrackColor="{StaticResource Secondary}"
-                    ThumbColor="{StaticResource Primary}" />
+                    ThumbColor="{StaticResource Primary}" 
+                    ValueChanged="Slider_ValueChanged"/>
                 <Label Text="Green Value:" />
                 <Slider
                     x:Name="SliderGreen"
                     MaximumTrackColor="{StaticResource Tertiary}"
                     MinimumTrackColor="{StaticResource Secondary}"
-                    ThumbColor="{StaticResource Primary}" />
+                    ThumbColor="{StaticResource Primary}" 
+                    ValueChanged="Slider_ValueChanged"/>
                 <Label Text="Blue Value" />
                 <Slider
                     x:Name="SliderBlue"
                     MaximumTrackColor="{StaticResource Tertiary}"
                     MinimumTrackColor="{StaticResource Secondary}"
-                    ThumbColor="{StaticResource Primary}" />
+                    ThumbColor="{StaticResource Primary}" 
+                    ValueChanged="Slider_ValueChanged"/>
 
                 <Border
                     Padding="20,20"
@@ -57,7 +60,7 @@
                         <ImageButton
                             Margin="10,0,0,0"
                             HeightRequest="25"
-                            Source="copy.svg"
+                            Source="copy"
                             VerticalOptions="Center"
                             WidthRequest="25" />
                     </HorizontalStackLayout>
